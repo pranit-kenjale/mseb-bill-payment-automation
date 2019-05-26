@@ -28,7 +28,7 @@ public class TestBase {
 
 		String browser="chrome";
 		Browser.initialize(browser);
-		Pages.getLoginPage().logIn("prabhaken", "Shankar_1925"); // MSEB credentials
+		Pages.getLoginPage().logIn("test", "test"); // MSEB credentials
 
 	}
 
